@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+  </style>
+
+  <title></title>
+</head>
+
+<body>
+
+  {% include "quiz/navbar.html" %}
+  <br><br>
+  <center>
+    <h3 class='alert alert-success' style="margin-bottom:0px;">About Us !</h3>
+  </center>
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
+    
+    <p class="lead">
+
+     This Project is developed by Marva.ai<br>
+      We are a new age consulting firm Leveraging Cloud, AI/ML and Insights to assist <br>
+      business growth. An equal opportunity employer offering a flexible and fun hybrid<br>
+      workplace environment. We work with established partners, globally sourced trusted<br> freelancers, established moonlighters, promising interns and dedicated employees to<br> deliver highest value to our customers.
+
+
+    </p>
+    <hr class="my-4">
+    <p>Explore our Website.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/" role="button">HOME</a>
+    </p>
+  </div>
+
+  {% include "quiz/footer.html" %}
+</body>
+
+</html>
